@@ -1,7 +1,12 @@
 import pytest
 
 def reverse_words_in_string():
-    """TODO: implement reverse_words_in_string"""
+    """
+    Reverse Words in a String:
+    Given an input string s, reverse the order of the words.
+    A word is defined as a sequence of non-space characters.
+    The words in s will be separated by at least one space.
+    """
     pass
 
 def test_reverse_words_in_string():

@@ -1,7 +1,13 @@
 import pytest
 
 def redundant_connection():
-    """TODO: implement redundant_connection"""
+    """
+    You are given a tree (a connected graph with n nodes and n - 1 edges), but then one extra edge is added — forming a cycle.
+
+    Return the edge that can be removed so the graph becomes a tree again (i.e. no cycles).
+
+    If there are multiple answers, return the one that appears last in the input.
+    """
     pass
 
 def test_redundant_connection():

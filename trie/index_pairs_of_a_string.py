@@ -1,7 +1,13 @@
 import pytest
 
 def index_pairs_of_a_string():
-    """TODO: implement index_pairs_of_a_string"""
+    """
+    Given a text string and an array of strings words, return all index pairs [i, j] such that the substring 
+    text[i..j] is in words.
+
+    Return the pairs in **lexicographical order** (i.e., sort by i, then by j).
+    """
+
     pass
 
 def test_index_pairs_of_a_string():

@@ -1,7 +1,12 @@
 import pytest
 
 def lexicographical_numbers():
-    """TODO: implement lexicographical_numbers"""
+    """
+    Given an integer n, return a list of integers from 1 to n in lexicographical order.
+
+    You must implement the solution without using built-in sorting functions.
+    """
+
     pass
 
 def test_lexicographical_numbers():

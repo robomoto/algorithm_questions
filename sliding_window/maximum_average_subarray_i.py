@@ -1,7 +1,10 @@
 import pytest
 
 def maximum_average_subarray_i():
-    """TODO: implement maximum_average_subarray_i"""
+    """
+    You are given an integer array nums and an integer k, representing the length of a subarray.
+    Find the maximum average value of any contiguous subarray of length k.
+    """
     pass
 
 def test_maximum_average_subarray_i():

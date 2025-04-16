@@ -1,7 +1,9 @@
 import pytest
 
 def longest_substring_without_repeating_characters():
-    """TODO: implement longest_substring_without_repeating_characters"""
+    """
+    Given a string s, find the length of the longest substring without repeating characters.
+    """
     pass
 
 def test_longest_substring_without_repeating_characters():

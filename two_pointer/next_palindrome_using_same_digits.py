@@ -1,7 +1,12 @@
 import pytest
 
 def next_palindrome_using_same_digits():
-    """TODO: implement next_palindrome_using_same_digits"""
+    """
+    Next Palindrome Using Same Digits:
+    Given a number n, find the next palindrome using the same digits.
+    A palindrome is a number that reads the same backward as forward.
+    A number is a palindrome if it is equal to its reverse.
+    """
     pass
 
 def test_next_palindrome_using_same_digits():

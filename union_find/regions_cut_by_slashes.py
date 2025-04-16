@@ -1,7 +1,15 @@
 import pytest
 
 def regions_cut_by_slashes():
-    """TODO: implement regions_cut_by_slashes"""
+    """
+    You are given a square grid n x n, where each cell contains either:
+    ' ' (a space),
+    '/', or
+    '\'
+
+    Imagine drawing the slashes on the grid and counting the number of regions formed.
+    Return the number of distinct regions.
+    """
     pass
 
 def test_regions_cut_by_slashes():

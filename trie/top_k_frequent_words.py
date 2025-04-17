@@ -2,11 +2,19 @@ import pytest
 
 def top_k_frequent_words():
     """
-    Given an array of strings words and an integer k, return the k most frequent words.
+    Finds the top k most frequent words in a list of words.
 
-    The answer should be sorted by frequency from highest to lowest. If multiple words have the same frequency,
-    sort them lexicographically (i.e., in dictionary order).
+    Given a list of words, the task is to find the top k most frequent words. The words should be ordered by their frequency, 
+    and in case of a tie, the words should be ordered lexicographically.
+
+    Args:
+        words (List[str]): A list of words.
+        k (int): The number of top frequent words to return.
+
+    Returns:
+        List[str]: A list of the k most frequent words.
     """
+
 
     pass
 

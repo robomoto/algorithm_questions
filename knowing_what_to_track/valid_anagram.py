@@ -1,7 +1,19 @@
 import pytest
 
 def valid_anagram():
-    """TODO: implement valid_anagram"""
+    """
+    Determines if two strings are anagrams of each other.
+
+    Two strings are considered anagrams if they contain the same characters in the same frequencies, but possibly 
+    in a different order.
+
+    Args:
+        s (str): The first string.
+        t (str): The second string.
+
+    Returns:
+        bool: True if the strings are anagrams, False otherwise.
+    """
     pass
 
 def test_valid_anagram():

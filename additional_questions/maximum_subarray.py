@@ -1,7 +1,19 @@
 import pytest
 
 def maximum_subarray():
-    """TODO: implement maximum_subarray"""
+    """
+    Finds the contiguous subarray with the maximum sum.
+
+    Given an array of integers, the task is to find the contiguous subarray (containing at least one number) 
+    that has the largest sum and return its sum.
+
+    Args:
+        nums (List[int]): A list of integers representing the input array.
+
+    Returns:
+        int: The sum of the contiguous subarray with the maximum sum.
+    """
+
     pass
 
 def test_maximum_subarray():

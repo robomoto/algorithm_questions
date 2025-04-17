@@ -1,7 +1,18 @@
 import pytest
 
 def missing_number():
-    """TODO: implement missing_number"""
+    """
+    Finds the missing number in an array containing n distinct numbers from the range [0, n].
+
+    The array is guaranteed to have exactly one number missing from the complete range.
+
+    Args:
+        nums (List[int]): The input list of distinct integers from 0 to n, missing one number.
+
+    Returns:
+        int: The missing number.
+    """
+
     pass
 
 def test_missing_number():

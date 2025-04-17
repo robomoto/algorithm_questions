@@ -1,7 +1,17 @@
 import pytest
 
 def first_missing_positive():
-    """TODO: implement first_missing_positive"""
+    """
+    Finds the smallest missing positive integer from an unsorted list.
+
+    The algorithm should run in O(n) time and use constant extra space.
+
+    Args:
+        nums (List[int]): The input list of integers.
+
+    Returns:
+        int: The smallest positive integer that is missing from the list.
+    """
     pass
 
 def test_first_missing_positive():

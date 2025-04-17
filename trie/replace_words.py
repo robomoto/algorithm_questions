@@ -2,14 +2,19 @@ import pytest
 
 def replace_words():
     """
-    In English, we have a concept called root, which can be followed by some other words to form another longer word.
-    For example, the root "cat" can be followed by "s", "er", "alog" to form "cats", "cater", "catalog".
+    Replaces words in a sentence using a dictionary of prefixes.
 
-    Given a dictionary consisting of many roots and a sentence, replace all the successors in the sentence with the 
-    root forming it. If a successor can be replaced by multiple roots, replace it with the shortest root.
+    Given a sentence and a dictionary of valid prefixes, the task is to replace each word in the sentence with its 
+    shortest prefix from the dictionary. If a word is not prefixed by any dictionary word, it remains unchanged.
 
-    Return the sentence after the replacement.
+    Args:
+        dictionary (List[str]): A list of valid prefix strings.
+        sentence (str): A string sentence where each word may be replaced by a prefix from the dictionary.
+
+    Returns:
+        str: The sentence with each word replaced by its shortest prefix, or the word itself if no prefix is found.
     """
+
 
     pass
 

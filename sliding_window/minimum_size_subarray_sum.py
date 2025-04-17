@@ -2,10 +2,19 @@ import pytest
 
 def minimum_size_subarray_sum():
     """
-    Given an array of positive integers nums and a positive integer target, return the minimal length of a contiguous subarray of which the sum is greater than or equal to target.
+    Finds the minimal length of a subarray whose sum is greater than or equal to a given target.
 
-    If there is no such subarray, return 0 instead.
+    Given an array of integers and a target value, the task is to find the length of the shortest contiguous subarray
+    whose sum is greater than or equal to the target value. If no such subarray exists, return 0.
+
+    Args:
+        nums (List[int]): A list of integers.
+        target (int): The target sum to achieve with the subarray.
+
+    Returns:
+        int: The length of the shortest subarray whose sum is greater than or equal to the target, or 0 if no such subarray exists.
     """
+
     pass
 
 def test_minimum_size_subarray_sum():

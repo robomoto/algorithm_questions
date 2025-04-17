@@ -2,12 +2,18 @@ import pytest
 
 def valid_word_abbreviation():
     """
-    Given a non-empty string word and a string abbr that represents an abbreviation, return true if abbr is a valid abbreviation of word.
+    Checks if a word can be abbreviated to a given string.
 
-    Rules for Abbreviation:
-    A number in abbr means you skip that many characters in word.
-    Leading zeros are invalid in abbreviations.
-    Letters in abbr must exactly match the corresponding letters in word.
+    Given a word and a string abbreviation, the task is to check if the abbreviation is valid for the word.
+    The abbreviation can contain digits, which represent the number of characters to be skipped in the word.
+    A valid abbreviation must match the word exactly after replacing the digits with the corresponding number of characters.
+
+    Args:
+        word (str): The original word.
+        abbr (str): The abbreviation string.
+
+    Returns:
+        bool: True if the abbreviation is valid for the word, False otherwise.
     """
     pass
 

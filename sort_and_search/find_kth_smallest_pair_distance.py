@@ -1,7 +1,20 @@
 import pytest
 
 def find_kth_smallest_pair_distance():
-    """TODO: implement find_kth_smallest_pair_distance"""
+    """
+    Finds the k-th smallest pair distance from two sorted arrays.
+
+    Given a list of integers sorted in non-decreasing order, the task is to find the k-th smallest distance
+    between any two numbers in the array. The distance between two numbers is the absolute difference between them.
+
+    Args:
+        nums (List[int]): A sorted list of integers.
+        k (int): The index of the smallest pair distance to find.
+
+    Returns:
+        int: The k-th smallest pair distance.
+    """
+
     pass
 
 def test_find_kth_smallest_pair_distance():

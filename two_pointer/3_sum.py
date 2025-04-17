@@ -2,12 +2,16 @@ import pytest
 
 def three_sum():
     """
-    Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that:
-    i != j,
-    i != k,
-    j != k, and
-    nums[i] + nums[j] + nums[k] == 0.
-    Notice that the solution set must not contain duplicate triplets.
+    Finds all unique triplets in an array that sum up to a target value.
+
+    Given an array of integers, the task is to find all unique triplets in the array whose sum is equal to zero.
+    The solution should not include duplicate triplets in the result.
+
+    Args:
+        nums (List[int]): A list of integers to find the triplets from.
+
+    Returns:
+        List[List[int]]: A list of lists, where each inner list contains three integers that sum to zero.
     """
     pass
 

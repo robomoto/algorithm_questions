@@ -2,12 +2,19 @@ import pytest
 
 def most_stones_removed_with_same_row_or_column():
     """
-    You are given a list of stones, where each stone is placed at a 2D coordinate [x, y].
+    Finds the maximum number of stones that can be removed in one move.
 
-    You can remove a stone if and only if there is another stone in the same row or column.
+    Given a 2D grid where each cell either contains a stone or is empty, the task is to remove the maximum number of stones
+    that can be removed in one move. A move consists of removing all stones from a row or a column, and the task is to 
+    calculate the maximum number of stones that can be removed by removing all stones from any row or column.
 
-    Return the maximum number of stones you can remove.
+    Args:
+        stones (List[List[int]]): A 2D list representing the grid, where 1 represents a stone and 0 represents an empty cell.
+
+    Returns:
+        int: The maximum number of stones that can be removed in one move.
     """
+
     pass
 
 def test_most_stones_removed_with_same_row_or_column():

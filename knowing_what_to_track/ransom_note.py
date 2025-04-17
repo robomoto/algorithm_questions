@@ -1,7 +1,21 @@
 import pytest
 
 def ransom_note():
-    """TODO: implement ransom_note"""
+    """
+    Determines if a ransom note can be constructed from a magazine.
+
+    Given a string representing a ransom note and a string representing a magazine, the task is to determine if 
+    the ransom note can be formed by using the characters in the magazine. Each character in the magazine can only 
+    be used once.
+
+    Args:
+        ransomNote (str): The string representing the ransom note.
+        magazine (str): The string representing the magazine.
+
+    Returns:
+        bool: True if the ransom note can be constructed from the magazine, False otherwise.
+    """
+
     pass
 
 def test_ransom_note():

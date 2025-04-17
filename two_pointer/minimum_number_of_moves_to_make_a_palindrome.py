@@ -2,15 +2,18 @@ import pytest
 
 def minimum_number_of_moves_to_make_a_palindrome():
     """
-    Minimum Number of Moves to Make a Palindrome
-    Given a string s, you can perform the following operation any number of times:
-    Choose any two characters in s and swap them.
-    Return the minimum number of moves to make s a palindrome.
-    A palindrome is a string that reads the same backward as forward.
-    A string is a palindrome if it is equal to its reverse.
-    A string is a subsequence of a string if it can be derived from the string by deleting some characters without changing the order of the remaining characters.
-    A string is a subsequence of itself.
+    Finds the minimum number of moves to make a string palindrome.
+
+    Given a string, the task is to determine the minimum number of moves required to make the string a palindrome. 
+    A move is defined as swapping two characters in the string.
+
+    Args:
+        s (str): The input string to be transformed into a palindrome.
+
+    Returns:
+        int: The minimum number of swaps required to make the string a palindrome, or -1 if it's impossible.
     """
+
 
     pass
 

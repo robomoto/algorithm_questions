@@ -2,14 +2,19 @@ import pytest
 
 def fruit_into_baskets():
     """
-    You are given an array fruits, where each element represents a tree bearing a type of fruit.
+    Finds the maximum number of fruits that can be collected in two baskets.
 
-    You have 2 baskets, and you can only carry one type of fruit in each.
+    Given a list of fruits where each element represents a type of fruit, the task is to find the maximum number of fruits
+    that can be collected in two baskets. Each basket can hold only one type of fruit, and you can swap between fruits 
+    only when necessary.
 
-    Pick the maximum number of fruits in a row, starting from any tree, such that:
+    Args:
+        fruits (List[int]): A list of integers representing different types of fruits.
 
-    You only ever carry 2 types of fruit at once.
+    Returns:
+        int: The maximum number of fruits that can be collected with two baskets.
     """
+
     
     pass
 

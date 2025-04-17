@@ -2,11 +2,19 @@ import pytest
 
 def lowest_common_ancestor_of_a_binary_tree_iii():
     """
-    Given the root of a binary tree and two nodes p and q, return the lowest common ancestor (LCA) of the two nodes.
-    According to the definition of LCA on Wikipedia: “The lowest common ancestor of two nodes p and q in a binary tree is the lowest node that has both p and q as descendants (where we allow a node to be a descendant of itself).”
-    A descendant of a node x is a node y that is on the path from node x to some leaf node.
-    A node is a descendant of itself.
+    Finds the lowest common ancestor (LCA) of two nodes in a binary tree.
+
+    Given a binary tree and two nodes, the task is to find the lowest common ancestor of the two nodes in the tree.
+    The lowest common ancestor of two nodes p and q in a binary tree is the deepest node that is an ancestor of both p and q.
+
+    Args:
+        p (TreeNode): The first node to find the LCA for.
+        q (TreeNode): The second node to find the LCA for.
+
+    Returns:
+        TreeNode: The lowest common ancestor of the two nodes, or None if no ancestor exists.
     """
+
     pass
 
 def test_lowest_common_ancestor_of_a_binary_tree_iii():

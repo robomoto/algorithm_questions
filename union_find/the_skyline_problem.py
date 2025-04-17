@@ -2,13 +2,17 @@ import pytest
 
 def the_skyline_problem():
     """
-    You are given a list of buildings — each building is a triplet:
-    [left, right, height]
+    Solves the skyline problem.
 
-    Return the skyline formed by these buildings, as a list of key points:
-    [x, height]
+    Given a list of buildings, where each building is represented by a triplet [left, right, height], the task is to 
+    find the outline of the buildings when viewed from the side. The outline is a series of horizontal segments 
+    that represent the upper contour of the buildings, and should account for overlapping buildings.
 
-    A key point is where the height of the skyline changes.
+    Args:
+        buildings (List[List[int]]): A list of buildings, where each building is represented by [left, right, height].
+
+    Returns:
+        List[List[int]]: A list of segments representing the skyline, where each segment is represented as [x, height].
     """
     pass
 

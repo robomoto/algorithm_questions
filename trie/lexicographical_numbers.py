@@ -2,10 +2,18 @@ import pytest
 
 def lexicographical_numbers():
     """
-    Given an integer n, return a list of integers from 1 to n in lexicographical order.
+    Generates a list of lexicographically sorted numbers.
 
-    You must implement the solution without using built-in sorting functions.
+    Given an integer n, the task is to return a list of numbers from 1 to n sorted in lexicographical order.
+    In lexicographical order, numbers are sorted as if they are strings, i.e., comparing digits from left to right.
+
+    Args:
+        n (int): The upper limit for the list of numbers.
+
+    Returns:
+        List[int]: A list of numbers from 1 to n sorted lexicographically.
     """
+
 
     pass
 

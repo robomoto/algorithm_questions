@@ -2,11 +2,18 @@ import pytest
 
 def valid_palindrome_ii():
     """
-    Valid Palindrome II:
-    Given a string s, return true if the s can be palindrome after deleting at most one character from it.
-    A palindrome is a string that reads the same backward as forward.
-    A string is a palindrome if it is equal to its reverse.
+    Checks if a string can be a palindrome after removing at most one character.
+
+    Given a string, the task is to determine if it can become a valid palindrome by removing at most one character.
+    A palindrome is a string that reads the same forward and backward.
+
+    Args:
+        s (str): The input string to check.
+
+    Returns:
+        bool: True if the string can become a palindrome after removing at most one character, False otherwise.
     """
+
     pass
 
 def test_valid_palindrome_ii():

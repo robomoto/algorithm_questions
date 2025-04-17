@@ -2,11 +2,19 @@ import pytest
 
 def index_pairs_of_a_string():
     """
-    Given a text string and an array of strings words, return all index pairs [i, j] such that the substring 
-    text[i..j] is in words.
+    Finds all index pairs of substrings in a given string.
 
-    Return the pairs in **lexicographical order** (i.e., sort by i, then by j).
+    Given a string, the task is to find all pairs of indices (i, j) such that the substring starting at index i and 
+    ending at index j is also a substring of the string. The pairs of indices should be returned in lexicographical order.
+
+    Args:
+        text (str): The input string in which to find the index pairs.
+
+    Returns:
+        List[Tuple[int, int]]: A list of tuples representing the index pairs, where each tuple (i, j) indicates that 
+                                the substring from index i to index j is a valid substring of the string.
     """
+
 
     pass
 

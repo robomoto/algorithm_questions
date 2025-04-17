@@ -2,10 +2,19 @@ import pytest
 
 def remove_nth_node_from_end_of_list():
     """
-    Remove the n-th node from the end of a linked list and return its head.
-    Given the head of a linked list, remove the n-th node from the end of the list and return its head.
-    Follow up: Could you do this in one pass?
+    Removes the n-th node from the end of a linked list.
+
+    Given the head of a singly linked list, the task is to remove the n-th node from the end of the list.
+    The list is 1-indexed, and the function should return the head of the modified list.
+
+    Args:
+        head (ListNode): The head node of the singly linked list.
+        n (int): The position (1-based) of the node to remove from the end of the list.
+
+    Returns:
+        ListNode: The head node of the modified linked list.
     """
+
     pass
 
 def test_remove_nth_node_from_end_of_list():

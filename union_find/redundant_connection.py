@@ -2,12 +2,20 @@ import pytest
 
 def redundant_connection():
     """
-    You are given a tree (a connected graph with n nodes and n - 1 edges), but then one extra edge is added — forming a cycle.
+    Finds the redundant connection in an undirected graph.
 
-    Return the edge that can be removed so the graph becomes a tree again (i.e. no cycles).
+    Given a set of edges in an undirected graph, the task is to identify the redundant connection that, when removed,
+    will make the graph a tree. A graph is a tree if it is connected and acyclic, and removing one edge will make it 
+    disconnected.
 
-    If there are multiple answers, return the one that appears last in the input.
+    Args:
+        edges (List[List[int]]): A list of edges where each edge is represented as a pair [u, v] indicating an edge 
+                                  between nodes u and v.
+
+    Returns:
+        List[int]: A list representing the redundant edge [u, v] that, if removed, will result in a valid tree.
     """
+
     pass
 
 def test_redundant_connection():

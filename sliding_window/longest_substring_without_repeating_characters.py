@@ -2,8 +2,18 @@ import pytest
 
 def longest_substring_without_repeating_characters():
     """
-    Given a string s, find the length of the longest substring without repeating characters.
+    Finds the length of the longest substring without repeating characters.
+
+    Given a string, the task is to find the length of the longest substring that contains no repeating characters.
+    The substring can be formed by selecting consecutive characters from the string.
+
+    Args:
+        s (str): The input string.
+
+    Returns:
+        int: The length of the longest substring without repeating characters.
     """
+
     pass
 
 def test_longest_substring_without_repeating_characters():

@@ -2,10 +2,18 @@ import pytest
 
 def sort_colors():
     """
-    Sort Colors:
-    Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent,
-    with the colors in the order red, white, and blue.
+    Sorts an array of colors.
+
+    Given an array of integers representing colors (0, 1, and 2), the task is to sort the array in-place such that 
+    all the 0s come first, followed by the 1s, and then the 2s. The solution should not use the built-in sort function.
+
+    Args:
+        nums (List[int]): A list of integers where each integer is 0, 1, or 2, representing the colors.
+
+    Returns:
+        None: The list is sorted in place.
     """
+
     pass
 
 def test_sort_colors():

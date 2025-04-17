@@ -1,7 +1,19 @@
 import pytest
 
 def maximum_swap():
-    """TODO: implement maximum_swap"""
+    """
+    Finds the maximum number that can be obtained by swapping two digits in the given number.
+
+    You are given a non-negative integer represented as a string, and the task is to find the largest number
+    that can be obtained by swapping exactly one pair of digits in the number.
+
+    Args:
+        num (int): The input number as an integer.
+
+    Returns:
+        int: The maximum number obtainable by one swap of digits.
+    """
+
     pass
 
 def test_maximum_swap():

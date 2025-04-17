@@ -2,10 +2,20 @@ import pytest
 
 def longest_repeating_character_replacement():
     """
-    Given a string s and an integer k, you can replace at most k characters in the string so that all characters in a substring are the same.
+    Finds the length of the longest substring with at most k character replacements.
 
-    Return the length of the longest such substring you can get.
+    Given a string and an integer k, the task is to find the length of the longest substring that can be obtained by
+    replacing at most k characters in the string. The goal is to make the substring as long as possible while keeping 
+    all characters the same after the replacements.
+
+    Args:
+        s (str): The input string.
+        k (int): The maximum number of character replacements allowed.
+
+    Returns:
+        int: The length of the longest substring that can be formed.
     """
+
     pass
 
 def test_longest_repeating_character_replacement():

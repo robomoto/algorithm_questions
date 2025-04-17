@@ -2,14 +2,24 @@ import pytest
 
 def implement_trie_prefix_tree():
     """
-    A Trie (prefix tree) is a tree data structure used to efficiently store and retrieve keys in a dataset of strings.
+    Implements a trie (prefix tree) data structure.
 
-    Implement the Trie class:
-      - Trie() initializes the trie object.
-      - void insert(word) inserts the string word into the trie.
-      - bool search(word) returns true if the word is in the trie (i.e., was inserted before), and false otherwise.
-      - bool startsWith(prefix) returns true if there is a previously inserted word that has the given prefix.
+    A trie is a special type of tree used to store a dynamic set of strings where the keys are usually strings. 
+    The trie allows for efficient searching, insertion, and deletion of strings, especially when there are common prefixes.
+
+    The task is to implement the following operations:
+    1. `insert(word)`: Inserts a word into the trie.
+    2. `search(word)`: Returns true if the word exists in the trie.
+    3. `startsWith(prefix)`: Returns true if there is any word in the trie that starts with the given prefix.
+
+    Args:
+        word (str): The word to insert or search in the trie.
+        prefix (str): The prefix to check for in the trie.
+
+    Returns:
+        bool: The result of the search or prefix check operation.
     """
+
 
     pass
 

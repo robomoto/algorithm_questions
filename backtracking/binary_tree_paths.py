@@ -2,10 +2,18 @@ import pytest
 
 def binary_tree_paths():
     """
-    Given the root of a binary tree, return all root-to-leaf paths in any order.
+    Finds all root-to-leaf paths in a binary tree.
 
-    A leaf is a node with no children. Each path should be represented as a string with '->' separating the node values.
+    Given the root of a binary tree, the task is to return all root-to-leaf paths in the tree. Each path is represented
+    as a string of node values from the root to a leaf node, separated by '->'.
+
+    Args:
+        root (TreeNode): The root node of the binary tree.
+
+    Returns:
+        List[str]: A list of strings, where each string represents a root-to-leaf path in the binary tree.
     """
+
 
     pass
 

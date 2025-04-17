@@ -2,11 +2,17 @@ import pytest
 
 def longest_common_prefix():
     """
-    Write a function to find the longest common prefix string amongst an array of strings.
+    Finds the longest common prefix among a list of strings.
 
-    If there is no common prefix, return an empty string "".
+    Given a list of strings, the task is to find the longest common prefix that is shared by all the strings in the list. 
+    If there is no common prefix, return an empty string.
+
+    Args:
+        strs (List[str]): A list of strings to find the common prefix.
+
+    Returns:
+        str: The longest common prefix shared by all the strings, or an empty string if there is no common prefix.
     """
-
     pass
 
 def test_longest_common_prefix():

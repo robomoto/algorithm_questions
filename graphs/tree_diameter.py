@@ -1,7 +1,18 @@
 import pytest
 
 def tree_diameter():
-    """TODO: implement tree_diameter"""
+    """
+    Finds the diameter of a tree.
+
+    The diameter of a tree is the length of the longest path between any two nodes in the tree.
+    This path may or may not pass through the root. The task is to find the length of this longest path.
+
+    Args:
+        root (TreeNode): The root node of the tree.
+
+    Returns:
+        int: The diameter of the tree, i.e., the length of the longest path between any two nodes.
+    """
     pass
 
 def test_tree_diameter():

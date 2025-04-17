@@ -1,7 +1,19 @@
 import pytest
 
 def count_the_number_of_good_subsequences():
-    """TODO: implement count_the_number_of_good_subsequences"""
+    """
+    Counts the number of good subsequences in a given array.
+
+    A subsequence is considered good if it meets certain criteria, such as having all elements
+    satisfying a specific condition (e.g., the subsequence may need to contain only even numbers,
+    or all elements must be distinct).
+
+    Args:
+        nums (List[int]): A list of integers.
+
+    Returns:
+        int: The number of good subsequences in the array.
+    """
     pass
 
 def test_count_the_number_of_good_subsequences():

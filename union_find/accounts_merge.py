@@ -2,19 +2,19 @@ import pytest
 
 def accounts_merge():
     """
-    Given a list of accounts where:
+    Merges accounts that belong to the same person.
 
-    Each account is represented by a list:
-    [name, email1, email2, ...]
+    Given a list of accounts where each account is represented by an email list, the task is to merge accounts
+    that have the same email address. The merge is done based on the email addresses, and each person’s accounts 
+    should be merged into one account, preserving all unique email addresses.
 
-    Some emails may belong to the same person (i.e., multiple accounts can share emails).
+    Args:
+        accounts (List[List[str]]): A list of lists where each list represents an account, and the first element is the person's name followed by their emails.
 
-    Return the merged accounts such that:
-
-    Each merged account has the person's name and a list of unique emails sorted lexicographically.
-
-    The final result can be returned in any order.
+    Returns:
+        List[List[str]]: A list of merged accounts, where each account contains a name followed by a list of unique emails.
     """
+
     pass
 
 def test_accounts_merge():

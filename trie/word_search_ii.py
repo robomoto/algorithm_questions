@@ -2,11 +2,20 @@ import pytest
 
 def word_search_ii():
     """
-    Given an m x n board of characters and a list of strings words, return all words on the board.
+    Finds all words in a 2D board that can be formed by a given list of words.
 
-    Each word must be constructed from letters of sequentially adjacent cells, where adjacent cells are
-    horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.
+    Given a 2D board of letters and a list of words, the task is to find all the words from the list that can be formed
+    by tracing adjacent letters in the board (horizontally or vertically). Each word must be constructed from a continuous
+    sequence of adjacent letters.
+
+    Args:
+        board (List[List[str]]): A 2D list representing the board of letters.
+        words (List[str]): A list of words to search for in the board.
+
+    Returns:
+        List[str]: A list of words that can be formed from the board.
     """
+
 
     pass
 

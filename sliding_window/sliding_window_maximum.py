@@ -2,11 +2,20 @@ import pytest
 
 def sliding_window_maximum():
     """
-    You are given an array of integers nums, and there is a sliding window of size k moving from the very left 
-    to the very right. You can only see the k numbers in the window at a time.
+    Finds the maximum value in each sliding window of size k in an array.
 
-    Return the max sliding window as a list of the maximum values in each window position.
+    Given an array of integers and a window size k, the task is to find the maximum value in each sliding window 
+    of size k. The window slides from left to right across the array, and at each step, the maximum value in the 
+    current window should be recorded.
+
+    Args:
+        nums (List[int]): A list of integers representing the array.
+        k (int): The size of the sliding window.
+
+    Returns:
+        List[int]: A list of the maximum values for each sliding window.
     """
+
 
     pass
 

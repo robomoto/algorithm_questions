@@ -1,7 +1,19 @@
 import pytest
 
 def longest_consecutive_sequence():
-    """TODO: implement longest_consecutive_sequence"""
+    """
+    Finds the longest consecutive sequence in an unsorted array.
+
+    Given an unsorted array of integers, the task is to find the length of the longest consecutive sequence. 
+    The sequence must consist of consecutive integers, and the array may contain duplicates.
+
+    Args:
+        nums (List[int]): A list of integers.
+
+    Returns:
+        int: The length of the longest consecutive sequence in the array.
+    """
+
     pass
 
 def test_longest_consecutive_sequence():

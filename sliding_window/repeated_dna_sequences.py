@@ -2,10 +2,18 @@ import pytest
 
 def repeated_dna_sequences():
     """
-    Given a string s that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
+    Finds all repeated 10-letter DNA sequences in a string.
 
-    You may return the answer in any order.
+    Given a string s representing a DNA sequence, the task is to find all the 10-letter-long sequences (substrings) 
+    that appear more than once in the string. The sequences should be returned as a list of strings.
+
+    Args:
+        s (str): The input string representing the DNA sequence.
+
+    Returns:
+        List[str]: A list of 10-letter-long repeated DNA sequences in the string.
     """
+
 
     pass
 

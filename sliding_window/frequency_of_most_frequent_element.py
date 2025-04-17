@@ -2,10 +2,19 @@ import pytest
 
 def frequency_of_most_frequent_element():
     """
-    Given an integer array nums and an integer k, you can increment any element at most k times in total (across all operations).
+    Finds the frequency of the most frequent element in an array after performing operations.
 
-    Return the maximum frequency of any element you can achieve after performing at most k increments.
+    Given an array of integers and a number of allowed operations, the task is to determine the maximum frequency
+    of the most frequent element after applying the allowed operations. Each operation can increase an element by 1.
+
+    Args:
+        nums (List[int]): A list of integers representing the elements.
+        k (int): The number of allowed operations.
+
+    Returns:
+        int: The maximum frequency of the most frequent element after the operations.
     """
+
     pass
 
 def test_frequency_of_most_frequent_element():

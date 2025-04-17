@@ -2,10 +2,18 @@ import pytest
 
 def strobogrammatic_number():
     """
-    Strobogrammatic Number:
-    A strobogrammatic number is a number that appears the same when rotated 180 degrees (looked at upside down).
-    Given a string num, return true if it is a strobogrammatic number.
+    Checks if a number is strobogrammatic.
+
+    A strobogrammatic number is a number that looks the same when rotated 180 degrees. The valid strobogrammatic digits are 0, 1, 6, 8, and 9.
+    The task is to determine if a given number is strobogrammatic.
+
+    Args:
+        num (str): The input number represented as a string.
+
+    Returns:
+        bool: True if the number is strobogrammatic, False otherwise.
     """
+
     pass
 
 def test_strobogrammatic_number():

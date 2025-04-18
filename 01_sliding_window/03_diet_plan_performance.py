@@ -1,5 +1,3 @@
-import pytest
-
 """
 Calculates the performance of a diet plan based on the calories consumed.
 
@@ -23,6 +21,8 @@ If the total calories in the window is less than lower, subtract 1 from your sco
 If the total calories is greater than upper, add 1 to your score.
 If the total is between lower and upper (inclusive), the score remains the same.
 """
+
+import pytest
 
 def diet_plan_performance(calories: list[int], k: int, lower: int, upper: int):
     score = 0

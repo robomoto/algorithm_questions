@@ -17,7 +17,7 @@ import pytest
 def contains_duplicate_ii(nums: list[int], k: int) -> bool:
     """
     O(n) solution using sliding window approach.  Relatively easy because the pointers are always the same distance apart.
-    The hardest part is making sure your indexed correctly. 
+    The hardest part is making sure your indexes are correct. 
     """
     for i in range((len(nums)-k)+1): 
         left = i

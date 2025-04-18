@@ -14,6 +14,9 @@ Returns:
 import pytest
 
 def repeated_dna_sequences(s: str) -> list[str]:
+    """
+    O(n) solution using sliding window approach, tracking the sequences we've seen in a separate structure.
+    """
     seen = []
     output = []
     if len(s) < 10:

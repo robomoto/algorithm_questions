@@ -16,6 +16,7 @@ import pytest
 import math
 
 def maximum_average_subarray_i(nums: list[int], k: int) -> float:
+    """ O(n) solution using sliding window pattern."""
     max_mean = -1 * math.inf 
     for i in range(len(nums) - k + 1): # length of array minus the size of subarray, adjust by 1 for zero indexing
         current_nums = nums[i: i+k]

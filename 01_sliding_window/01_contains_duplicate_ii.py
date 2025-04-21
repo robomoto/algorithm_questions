@@ -21,7 +21,7 @@ def contains_duplicate_ii(nums: list[int], k: int) -> bool:
     """
     for i in range((len(nums)-k)+1): 
         left = i
-        right = i+k+1 #+1 for zero indexing
+        right = i + k + 1 #+1 for zero indexing
         current_values = nums[left:right]
         current_set = set(current_values)
         # print(f"current_values: {current_values}, current_set: {current_set}")

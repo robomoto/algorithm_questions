@@ -22,7 +22,7 @@ def repeated_dna_sequences(s: str) -> list[str]:
     if len(s) < 10:
         return []
     for i in range(len(s)-9):
-        current_string = s[i:i+10]
+        current_string = s[i: i + 10]
         if current_string in seen and current_string not in output: 
             output.append(current_string)
         else:

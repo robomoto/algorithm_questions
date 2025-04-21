@@ -16,7 +16,7 @@ import pytest
 
 def frequency_of_most_frequent_element(nums: list[int], k: int) ->int:
     """
-    O(n log(n)) solution.  Sorts the numbers in descending order, so that you can continue to iterate using k values.
+    O(!n) solution.  Sorts the numbers in descending order, so that you can continue to iterate using k values.
     Left pointer is just stepped through the entire range. Right pointer is finding the total possible values with operations.
     I think it's O(!n)) because we're iterating to the right for every index. Maybe there is a a better solution.
     """

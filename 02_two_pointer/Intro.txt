@@ -1,0 +1,80 @@
+Clues to use Two-Pointer:
+When working with Arrays or lists
+* Given a sorted array, or allowed to sort it
+* You're looking for pairs, or ranges with specific properties(sum, difference, duplicates, etc)
+
+Examples:
+* Find if there exists a pair that sums to a target.
+* Find closest pair / smallest window / bounded difference
+* Remove duplicates in-place
+
+When the question involves subarrays, substrings, or windows where you are scanning contiguous elements and may need to adjust start/end dynamically
+* Often combined with sliding-window techniques
+
+Examples:
+Longest substring without repeating characters
+Minimum window substring
+Maximum average subarray of length k
+
+Symmetry or Palindromes
+* If you need to compare from both ends and move toward the center. 
+Note: Some Palindrome questions need to start at the center of a substring and work out--those typically aren't good two-pointer questions.
+
+Examples:
+* Valid palindrome
+* Valid palindrome with at most one deletion
+* Check if a string can be a palindrome permutation
+
+Merging or comparing two sorted lists:
+* If you're merging or processing two arrays in sync
+Examples:
+* Merge two sorted arrays
+* Find the intersection of two arrays
+* Sorted squares of a sorted array
+
+Min/Max in range or distance between elements
+* If you're asked to find the longest, shortest, closest range, distance or segment and it's not a graph--you might be looking at a two-pointer problem.
+
+Examples:
+* Find the smallest range covering elements from k lists
+* Container with most water
+* Trapping rain water (a clever variant)
+
+
+Quiz:
+
+Q: Container With Most Water
+You are given an array of heights representing vertical lines. Find two lines that together form a container with the most water.
+Should you use two pointers?
+
+
+Q: Merge Two Sorted Arrays In-Place
+You are given two sorted arrays nums1 and nums2, and you need to merge them into one sorted array in-place in nums1.
+Should you use two pointers?
+
+
+Q: First Unique Character in a String
+Return the index of the first non-repeating character in a string. If there’s none, return -1.
+Should you use two pointers?
+
+
+Q: Are Two Strings Anagrams?
+Determine if two strings are anagrams of each other (i.e., same letters, same frequency).
+Should you use two pointers?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answers:
+yes, yes, no, no 

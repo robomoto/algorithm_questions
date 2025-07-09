@@ -1,23 +1,36 @@
+"""
+Finds the duplicate and missing numbers in an array containing numbers from 1 to n.
+
+The array has one number duplicated and one number missing.
+The task is to identify both numbers.
+
+Args:
+    nums (List[int]): A list of integers where one number is duplicated and one is missing.
+
+Returns:
+    Tuple[int, int]: A tuple containing the duplicate number and the missing number, in that order.
+"""
+
 import pytest
+import random
 
-def find_the_corrupt_pair():
-    """
-    Finds the duplicate and missing numbers in an array containing numbers from 1 to n.
+def find_the_corrupt_pair(nums: list[int]):
+  pass
 
-    The array has one number duplicated and one number missing.
-    The task is to identify both numbers.
+sorted_list = list(range(0, 1000))
+unsorted_list = sorted_list.copy()
+random.seed(0)
+random.shuffle(unsorted_list)
 
-    Args:
-        nums (List[int]): A list of integers where one number is duplicated and one is missing.
-
-    Returns:
-        Tuple[int, int]: A tuple containing the duplicate number and the missing number, in that order.
-    """
-    pass
-
-def test_find_the_corrupt_pair():
-    result = find_the_corrupt_pair()
-    assert result is None  # TODO: update assertion
+@pytest.mark.parametrize('input, expectation',
+                         [
+                            ([5,4,3,2,1], [1,2,3,4,5]),
+                            (unsorted_list, sorted_list),
+                          ]
+                        )
+def test_find_the_corrupt_pair(input, expectation):
+    find_the_corrupt_pair(input)
+    assert input == expectation
 
 if __name__ == "__main__":
     import sys
